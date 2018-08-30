@@ -176,6 +176,18 @@
     ]
     },
     {
+      "company": "Pictureman of Hawaii ",
+      "position": "Photographer",
+      "website": "http://www.pmoh.com",
+      "startDate": "2013-05-01",
+      "endDate": "2014-06-15",
+      "summary": "Kapolei, HI - Shot once in a lifetime events for clients such as the University of Hawaii, Kamehameha Schools, and Oahu Interscholastic Association",
+      "highlights": [
+        "	Provided consultation to clients on creating the most appropriate style and expression to meet their expectations. ",
+        "Captured over 6,000 individual photos of every undergraduate and graduate as the part of the official 2014 University of Hawaii at Mānoa Commencement Ceremony photographer team"
+      ]
+    },
+    {
       "company": "SellWHM.com",
       "position": "System Administrator",
       "website": "",
@@ -185,8 +197,8 @@
       "highlights": [
       "Ensured optimal performance of systems utilizing the Xen and WHM/cPanel platforms",
       "Configured critical services including Squid proxy, BIND, iptables, Apache httpd, PHP-FCGI, MySQL, and ProFTPD",
-      "Improved customer satisfaction by providing live customer support via chat and ticketing system"
-      ,"Implemented polices and optimization for shell access, brute force timeouts, SYN cookies, and TCP windows"
+        "Improved customer satisfaction by providing live customer support via chat and ticketing system",
+        "Implemented polices and optimization for shell access, brute force timeouts, SYN cookies, and TCP windows"
     ]
     }
   ],
