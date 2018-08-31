@@ -17,7 +17,9 @@ summary: A free open source set of bash scripts to deploy secure NGINX virtual d
 GitHub: [BashTools_CentOS7](https://github.com/rosshiga/BashTools_CentOS7)
 
 Demo: Used to deploy rosshi.ga, demo.rosshiga.com, and a number of small projects I have.
-
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/bashtools.png">
+</div>
 
 # BashTools_CentOS7 Usage
 BashTools is a set of bash scripts to deploy and configure CentOS 7 and Nginx for IPv4 networks. The scripts also 
