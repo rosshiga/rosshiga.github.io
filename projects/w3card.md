@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/w3card.png
+image: images/w3-purp.png
 title: w3card-blog
 permalink: projects/w3card
 # All dates must be YYYY-MM-DD format!
