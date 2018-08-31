@@ -147,6 +147,6 @@ Use this image as a reference for your PuTTY:
 ![PuTTY Config Windows](../images/putty.png)
 
 ### Connecting VNC
-You will be able to connect to the Pi using the address localhost:5900 as long as both tunnels (Pi-UH and UH-Local) are connected. See below
+You will be able to connect to the Pi using the address localhost:5900 as long as both tunnels (Pi-Unix and Unix-Local) are connected. See below
 ![RealVNC Viewer to RPi](../images/realvnc.png)
 
