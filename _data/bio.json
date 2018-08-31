@@ -126,7 +126,8 @@
       "gpa": "",
       "courses": [
       ]
-    }, {
+    },
+    {
       "institution": "Leeward Community College, Pearl City, HI",
       "area": "Natural Sciences",
       "studyType": "A.S.",
@@ -135,7 +136,8 @@
       "gpa": "",
       "courses": [
       ]
-    }, {
+    },
+    {
       "institution": "Moanalua Community School for Adults, Honolulu, HI",
       "area": "Hawaii Adult Education Diploma",
       "studyType": "G.E.D",
@@ -155,11 +157,11 @@
       "endDate": "Present",
       "summary": "Oahu, HI - RH Digital is proud to empower local business with technology and data driven strategies.",
       "highlights": [
-      "Provided clear direction, leadership, and communication necessary to achieve business, financial and operating goals",
-      "Built, repaired, and upgraded personal computers by following detailed and specific build plans",
-      "Developed engaging and visually compelling websites based on the WordPress and Concrete5 platform",
-      "Set up home office networks or business services including DNS, email, and server hosting",
-      "Develop tools to process large amounts of retail data to provide movement and market analytics"
+        "Provided clear direction, leadership, and communication necessary to achieve business, financial and operating goals",
+        "Built, repaired, and upgraded personal computers by following detailed and specific build plans",
+        "Developed engaging and visually compelling websites based on the WordPress and Concrete5 platform",
+        "Set up home office networks or business services including DNS, email, and server hosting",
+        "Develop tools to process large amounts of retail data to provide movement and market analytics"
       ]
     },
     {
@@ -170,12 +172,12 @@
       "endDate": "2015-06-15",
       "summary": "Honolulu, HI - Reported directly to the vice president of programming to collaborate on milestone initiatives while reducing help desk ticket load",
       "highlights": [
-      "Provided direct line support for 56k, DSL, managed IP, VoIP, and colocation customers to diagnose and resolve system issues",
-      "Generated operational and financial analytics using spreadsheets, Quicken, and other data sources",
-      "Utilized Cacti, Nagios, and Zabbix to monitor IP circuits and escalate issues to NOC supervisor",
-      "Developed bash automated certificate deployment and Asterisk PBX configuration for SRTP VoIP encryption and high availability seamless route failover",
-      "Integrated open source software with various telecom vendor systems such as Verizon, 2wire, Polycom, Linksys, CloudTrax, and Pace"
-    ]
+        "Provided direct line support for 56k, DSL, managed IP, VoIP, and colocation customers to diagnose and resolve system issues",
+        "Generated operational and financial analytics using spreadsheets, Quicken, and other data sources",
+        "Utilized Cacti, Nagios, and Zabbix to monitor IP circuits and escalate issues to NOC supervisor",
+        "Developed bash automated certificate deployment and Asterisk PBX configuration for SRTP VoIP encryption and high availability seamless route failover",
+        "Integrated open source software with various telecom vendor systems such as Verizon, 2wire, Polycom, Linksys, CloudTrax, and Pace"
+      ]
     },
     {
       "company": "Pictureman of Hawaii ",
@@ -197,11 +199,11 @@
       "endDate": "2010-06-01",
       "summary": "Summitville, IN",
       "highlights": [
-      "Ensured optimal performance of systems utilizing the Xen and WHM/cPanel platforms",
-      "Configured critical services including Squid proxy, BIND, iptables, Apache httpd, PHP-FCGI, MySQL, and ProFTPD",
+        "Ensured optimal performance of systems utilizing the Xen and WHM/cPanel platforms",
+        "Configured critical services including Squid proxy, BIND, iptables, Apache httpd, PHP-FCGI, MySQL, and ProFTPD",
         "Improved customer satisfaction by providing live customer support via chat and ticketing system",
         "Implemented polices and optimization for shell access, brute force timeouts, SYN cookies, and TCP windows"
-    ]
+      ]
     }
   ],
   "references": [
