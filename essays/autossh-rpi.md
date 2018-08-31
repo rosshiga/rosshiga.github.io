@@ -93,7 +93,8 @@ Now we must mark the key as authorized on UH Unix, start by login in to UH Unix 
 Once we verify no password is required we can setup forwarding for our VNC port 5900 to UH Unix. First let's verify that we can tunnel the VNC port to a test port 4444. (**You should pick your own port number > 10000**)
 
     ssh -v -R localhost:4444:localhost:5900 rosshiga@uhunix.hawaii.edu
-   This command tells ssh to tunnel the (R)emote (UH Unix) port localhost:4444 to the local port localhost:5900. This in effect maps our VNC port to a port on UH Unix. You will see many debug messages because of the 	-v option but your are looking for a forwarding success message.
+    
+This command tells ssh to tunnel the (R)emote (UH Unix) port localhost:4444 to the local port localhost:5900. This in effect maps our VNC port to a port on UH Unix. You will see many debug messages because of the 	-v option but your are looking for a forwarding success message.
    
 
     debug1: remote forward success for: listen localhost:4344, connect localhost:5900
