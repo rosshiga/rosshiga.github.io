@@ -13,6 +13,7 @@ labels:
 summary: A free open source blog template I developed using W3.CSS.
 ---
 [GitHub: w3card-blog](https://github.com/rosshiga/w3card-blog)
+
 [Demo project: EE491 (Cards may be hidden) ](https://demo.rosshiga.com)
 
 <div class="ui small rounded images">
