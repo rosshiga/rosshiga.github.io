@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Raspberry Pi Remote Access Tool with SSH
+title: Raspberry Pi NAT Hole Punching with SSH
 # All dates must be YYYY-MM-DD format!
 date: 2018-01-29
 labels:
@@ -13,7 +13,10 @@ labels:
 
 # Reverse SSH tunnel to hole punch NAT
 
-Since a Raspberry Pi can be connected connected to networks we do not control it would be easier to bypass the topology by using a third party server. This would allow us to ignore NAT and port forward by tunneling the traffic to a relay server. OpenSSH allows us to do this with some scripting.
+Since a Raspberry Pi can be connected connected to networks we do not control it would be easier to bypass the topology 
+by using a third party server across the internet. This would allow us to ignore NAT and port forward by tunneling the 
+traffic to a Unix server. OpenSSH allows us to do this with some scripting. A crude remote access tool can be created 
+using a Raspberry Pi to conduct information gathering in penetration test environment. 
 
 ## Required
 
