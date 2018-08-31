@@ -10,7 +10,6 @@ labels:
   - Arduino
   - PID Loop
 summary: Embedded Systems Design--Team based EE x96 project course focused on using Arduino.
-forked: With permission from https://github.com/icarus0/unjammy.github.io/blob/master/projects/solarbeast.md
 ---
 
 <div class="ui black inverted center aligned segment">
