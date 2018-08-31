@@ -27,7 +27,7 @@ The project culminated with a sales pitch presentation at the end of the semeste
 
 ### Role:
 
-In this project, I was a lead programmer who was responsible for programming the PhoneGap app using angular.js and Ionic.  
+In this project, I was a lead programmer who was responsible for programming the PhoneGap app using angular.js and Ionic. 
 I also made contributions to IC selection and was the main designer and integrator of the TI TPS5420 and 
 TI UC3906N lead acid charging logic.  Using the INA219 High Side DC Current Sensor Breakout I was able to gather statistics on Arduino and feed 
 the power dzta into a MySQL backend which fed our phone app logic and numerical analysis.
