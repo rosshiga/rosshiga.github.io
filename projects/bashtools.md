@@ -14,10 +14,18 @@ labels:
   - NGINX
 summary: A free open source set of bash scripts to deploy secure NGINX virtual domains.
 ---
-# BashTools_CentOS7
-BashTools is a set of bash scripts to deploy and configure CentOS 7 and Nginx for IPv4 networks
+GitHub: [BashTools_CentOS7](https://github.com/rosshiga/BashTools_CentOS7)
 
-## firstSetup.sh
+Demo: Used to deploy rosshi.ga, demo.rosshiga.com, and a number of small projects I have.
+
+
+# BashTools_CentOS7 Usage
+BashTools is a set of bash scripts to deploy and configure CentOS 7 and Nginx for IPv4 networks. The scripts also 
+secure sites with free HTTPS certificates from [Let's Encrypt](https://letsencrypt.org/). The tools are focused on having
+the latest version of packages and makes no consideration of stability. 
+## Usage
+All scripts will prompt for needed information or can be preconfigured in the script header. 
+### firstSetup.sh
 Non root user, timezone, optional yum packages, and public key for SSH can be specified in the header.
 
 EPEL repo is enabled and sed is used to enable automatic yum updates which may impact stability.
@@ -28,14 +36,14 @@ Sysctl configurations for ASLR, SYN Cookies, TCP windows, and bogon/bad route pr
 
 Core limits on open handles and files have been removed and some kernel modules have been disabled 
 
-## setupNGINX.sh
+### setupNGINX.sh
 Certbot and nginx are installed from yum. Certbot is used to generate Let's Encrypt free certificates.
 
 Port 80 and 443 are opened for nginx. OpenSSL is used to generate Diffie Hellman group of 2048 bits and is marked for rwx only by root,
 
 Nginx is enabled to start on boot using systemd.
 
-## addVHOST.sh
+### addVHOST.sh
 
 An TLS/SSL enabled host is created for a FQDN. Nginx is stopped and certbot is allowed to take over port 443 to verify DNS A records. A certificate is generated and OCSP is enforced. 
 
