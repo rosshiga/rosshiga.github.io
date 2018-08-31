@@ -17,10 +17,10 @@ summary: A free open source blog template I developed using W3.CSS.
 [Demo project: EE491 (Cards may be hidden) ](https://demo.rosshiga.com)
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/w3-mobile.png">
+  <img class="ui image" src="../images/w3-red.png">
+  <img class="ui image" src="../images/w3-purp.png">
+  <img class="ui image" src="../images/w3card.png">
 </div>
 
 [W3Schools](https://www.w3schools.com) is a great resource for learning modern web design.
