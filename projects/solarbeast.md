@@ -11,7 +11,9 @@ labels:
   - PID Loop
 summary: Embedded Systems Design--Team based EE x96 project course focused on using Arduino.
 ---
-
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/solarbeast.png">
+</div>
 ### Scope:
 
 Embedded System Design challenged us to use the popular Arduino microcontroller to build an innovative new product.  
