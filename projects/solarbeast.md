@@ -4,7 +4,7 @@ type: project
 image: images/solarbeast.png
 title: Solar Beast
 permalink: projects/solarbeast
-date: 2016
+date: 2016-05-30
 labels:
   - angular.js
   - Arduino
