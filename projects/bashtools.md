@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/w3card.png
+image: images/bashtools.png
 title: BashTools for CentOS7
 permalink: projects/bashtools
 # All dates must be YYYY-MM-DD format!
