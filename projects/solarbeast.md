@@ -8,7 +8,9 @@ date: 2016-05-30
 labels:
   - angular.js
   - Arduino
-  - PID Loop
+  - Cordova
+  - Ionic
+  - MySQL
 summary: Embedded Systems Design--Team based EE x96 project course focused on using Arduino.
 ---
 <div class="ui large rounded images">
