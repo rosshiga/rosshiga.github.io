@@ -13,22 +13,22 @@ labels:
 
 # Reverse SSH tunnel to hole punch NAT
 
-Since the Raspberry Pi is connected to networks we do not control it would be easier to bypass the topology by using a third party server. This would allow us to ignore NAT and port forward by tunneling the traffic to a relay server. OpenSSH allows us to do this with some scripting.
+Since a Raspberry Pi can be connected connected to networks we do not control it would be easier to bypass the topology by using a third party server. This would allow us to ignore NAT and port forward by tunneling the traffic to a relay server. OpenSSH allows us to do this with some scripting.
 
 ## Required
 
  - Raspbian Jessie
  - 3rd party internet reachable SSH server (Wiliki, UH Unix, AWS)
- - AutoSSH
+ - [AutoSSH](https://linux.die.net/man/1/autossh)
 
-We will be using UH Unix for this document. Some server may not have port forwarding enabled for security reason as you could spoof IP traffic that looks like its originating from the SSH server. 
+We will be using UH Unix for this document. Some servers may not have port forwarding enabled for security reason as you could spoof IP traffic that looks like its originating from the SSH server. 
 
-On the note of security, I have written the SSH forward to bind to the 'localhost' on UH Unix. This means your data is not exposed to the internet. However, it is exposed to all users who can login to UH Unix with a valid account. If you are going to use this guide **it is mandatory to change the default password** as another student in the class could find your port number and attempt to login. This can be accomplished by running the following commands as pi:
+On the note of security, I have written the SSH forward to bind to the 'localhost' on our Unix host. This means your data is not exposed to the internet. However, it is exposed to all users who can login to the Unix server with a valid account. If you are going to use this guide **it is mandatory to change the default password** because other users can find your port number and attempt to login. This can be accomplished by running the following commands as pi:
 
     passwd pi  # Changing your login and sudo password
     sudo passwd -l root # Prevents password login on root
 
-We use RSA key pairs for SSH. It is important to note that at the end of this tutorial your Raspberry Pi will contain a private key (id_rsa) that allows a login to UH Unix. **If you lose your private key or believe it is compromised you must remove it from your authorized_keys file on UH Unix to prevent someone impersonating your account.** 
+We use RSA key pairs for SSH. It is important to note that at the end of this tutorial your Raspberry Pi will contain a private key (id_rsa) that allows a login to your Unix server. **If you lose your private key or believe it is compromised you must remove it from your authorized_keys file on UH Unix to prevent someone impersonating your account.** 
 ## Setting up the Pi
 We will utilize public key authentication to allow the Pi to login to UH Unix without a password prompt. This method utilizes a RSA key pair to bypass the need for a password. 
 
@@ -103,6 +103,7 @@ If you see a message like:
 
     debug1: remote forward failure for: listen localhost:80, connect localhost:5900
 	Warning: remote port forwarding failed for listen port 80
+	
 You did not pick a port larger than 10000 or you picked a port in use. If no port work check to see if port forwarding is enabled on the remote server.
 
 ## AutoSSH
@@ -143,9 +144,9 @@ This tells SSH to do a (L)ocal foward from your machine port 5900 to the remote 
 ### PuTTY
 Use this image as a reference for your PuTTY:
 
-![PuTTY Config Windows](https://rosshi.ga/Ww3lt77.png)
+![PuTTY Config Windows](../images/putty.png)
 
 ### Connecting VNC
 You will be able to connect to the Pi using the address localhost:5900 as long as both tunnels (Pi-UH and UH-Local) are connected. See below
-![RealVNC Viewer to RPi](https://rosshi.ga/br9gdCM.png)
+![RealVNC Viewer to RPi](../images/realvnc.png)
 
