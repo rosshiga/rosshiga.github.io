@@ -14,7 +14,9 @@ JavaScript in my eyes is has a huge potential for the future of most traditional
 
 I find it troubling though while easier to use and code, for me than PHP or Python, that I perceive a high barrier to getting into the cooler stuff beyond ECMAScript. I have had much difficulty in the past working with React, Ionic, and angular.js. There are many terms and dependencies that aren’t familiar to me like Webpack, JSX, and Babel mixed in with things less foreign like SASS, HTML, and CSS. The dizzying array of options is a natural side effect of npm and open package repositories. Virtualenv and pip do provide those dizzy options as well but when I try to dive into JavaScript, there seem to be more traps and cross-dependency issues. The language matures at incredible rates and I feel like you need to learn and re-learn constantly with no clear life cycle.
 
-![Web App](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Web-app.jpg/201px-Web-app.jpg)
+<div class="ui small images">
+  <div class="ui image" src="https://upload.wikimedia.org/wikipediacommons/thumb/2/20/Web-app.jpg/201px-Web-app.jpg">
+</div>
 
 Aside from my personal frustration with learning the newest and arguably best things of JavaScript like node.js, I find the language to be greatly powerful. Functional programming with objects and prototypes is something that seems to come naturally with the language. The ability to import packages and essentially repackage and deploy ready on both front and back to build your whole pipeline is elegant and in some case like React DOM save overhead.  The fact that most devices sold in the last decade have some form of JavaScript interpreter seems to have poised it to be a major language beyond the traditional script tag. 
 
