@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Is JavaScript The Language, Or Just The Words?
+title: Is JavaScript the Language, or just the Words?
 date: 2018-08-31
 labels:
   - Javascript
