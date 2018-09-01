@@ -14,7 +14,7 @@ JavaScript in my eyes is has a huge potential for the future of most traditional
 
 I find it troubling though while easier to use and code, for me than PHP or Python, that I perceive a high barrier to getting into the cooler stuff beyond ECMAScript. I have had much difficulty in the past working with React, Ionic, and angular.js. There are many terms and dependencies that aren’t familiar to me like Webpack, JSX, and Babel mixed in with things less foreign like SASS, HTML, and CSS. The dizzying array of options is a natural side effect of npm and open package repositories. Virtualenv and pip do provide those dizzy options as well but when I try to dive into JavaScript, there seem to be more traps and cross-dependency issues. The language matures at incredible rates and I feel like you need to learn and re-learn constantly with no clear life cycle.
 
-<div class="ui small images">
+<div class="ui small images centered">
   <div class="ui image" src="https://upload.wikimedia.org/wikipediacommons/thumb/2/20/Web-app.jpg/201px-Web-app.jpg">
 </div>
 
