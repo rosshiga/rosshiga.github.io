@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Make Hole Punch, With Raspberry Pi
+title: Make Some Raspberry Hole Punch!
 # All dates must be YYYY-MM-DD format!
 date: 2018-01-29
 labels:
