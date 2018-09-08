@@ -158,7 +158,7 @@ We will now add a service file /etc/systemd/system/autossh.service on the Pi:
 
 Once that is saved test the service `sudo systemctl start autossh`, if reported as running by `sudo systemctl status autossh`then enable the autossh service on boot by issuing `sudo systemctl enable autossh`.
 ## Using the tunnel
-All the setup is done and you will no longer need to make any changes on the Pi or Uh Linux. We just need to utilize the 
+All the setup is done and you will no longer need to make any changes on the Pi or Linux. We just need to utilize the 
 tunnel. Our tunnel port in this example is 4444. We will use two methods to connect to the Pi.
 ### OpenSSH (Windows (beta)/OS X/Linux)
 Issue this command on your local machine:
