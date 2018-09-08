@@ -11,8 +11,6 @@ labels:
   - Linux
 ---
 
-## Reverse SSH tunnel to hole punch NAT
-
 In a penetration test or security audit of a network, a Raspberry Pi can be planted within the network to act as a man inside. 
 By using a third party server across the internet, we can abuse the fact that most firewalls are configured to do strict checking on ingress traffic and are very lax on egress packets. By using an outbound connection we can ignore NAT and port forwarding by tunneling the traffic to a Linux server, this is often referred to as [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)). OpenSSH allows us to do this with some scripting. A crude remote access tool can be created using a Raspberry Pi to conduct information gathering. 
 
