@@ -106,7 +106,7 @@ the authorized list. If you are successful at this, future SSH sessions will not
 	Last login: Mon Jan 29 15:23:53 2018  # Password: line missing!
 	uhx02:/home/r/rosshiga%
 ```
-Once we verify no password is required we can setup forwarding for our VNC port 5900 to UH Linux. First let's verify 
+Once we verify no password is required we can setup forwarding for our VNC port 5900 to Linux. First let's verify 
 that we can tunnel the VNC port to a test port 4444. (**You should pick your own port number > 10000**)
 ```
     ssh -v -R localhost:4444:localhost:5900 rosshiga@uhLinux.hawaii.edu
