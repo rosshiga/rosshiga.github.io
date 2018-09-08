@@ -84,7 +84,7 @@ We have to find our home directory on Linux by logging in:
 	/home/r/rosshiga
 ```
 	
-So my home directory is /home/r/rosshiga. I'll copy my public key to /home/r/rosshiga/.ssh/pi.pub on UH Linux. 
+So my home directory is /home/r/rosshiga. I'll copy my public key to /home/r/rosshiga/.ssh/pi.pub on remote Linux. 
 The easiest way to copy files is SSH since both the server and Pi have SSH. 
 The `scp` utility will use SSH to copy files on the Pi
 ```
