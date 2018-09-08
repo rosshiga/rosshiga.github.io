@@ -12,7 +12,7 @@ labels:
 
 Have you ever heard of [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria)? SMART is a way to create goals and tasks that allow for work distribution and measured success in teams of people.
 
-[img]
+![SMART Goals via Wikipedia](../images/smart.jpg)
 
 The reason I ask is because while I have no doubt you are smart, your goals may not be. The some of the same principles used for SMART goals can affect if people will help you and respond to questions you ask.
 
