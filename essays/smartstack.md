@@ -23,7 +23,7 @@ For example let’s deconstruct [this Stack Overflow question](https://stackover
 Kopezaur writes:
 <blockquote>
 I have recently reinstalled postgresql 8.3 on my Ubuntu 8.04 after update. Used EnterpriseDB package. I can connect to the database locally, I see system DB postgres but I can't configure it because I can't find config files. Searched through entire hard drive and found only samples like pg_hba.conf.sample
-Where are the postgres *.conf files?
+<br/>Where are the postgres *.conf files?
 </blockquote>
 
 You might not even have heard of postgresql before but you can quickly grasp what this question is asking for. Kopezaur is looking for the config files on Ubuntu 8.04. The context information here is great, he provides a chronologically ordered timeline of the events that lead to the posting. They also mention all the version numbers of software and what is and isn’t working along with what has been tried.
@@ -36,6 +36,7 @@ Tiny in part wrote:
 <blockquote>
 Here's my code, I have no idea what is wrong with it I am completely new at this and I would appreciate it a lot if I can receive some feedback thanks:)When I try to launch my app in the emulator it tells me I can't because of theses errors:
 <br/>
+
 Error:Error: Duplicate resources: C:\Users\Kam\AndroidStudioProjects\SchoolAid5\app\src\main\res\layout-ldltr-v14\activity_my.xml:layout-ldltr-v17/activity_my, C:\Users\Kam\AndroidStudioProjects\SchoolAid5\app\src\main\res\layout-ldltr\activity_my.xml:layout-ldltr-v17/activity_my
 </blockquote>
 
