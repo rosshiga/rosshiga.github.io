@@ -22,4 +22,5 @@ I want to bring the web app, write once and deploy everywhere, philosophy to wha
 
 
 This post makes use of the image [Web-App](https://commons.wikimedia.org/wiki/File:Web-app.jpg) by Quierounaapp.
+
 This post is licensed under the [CC Attribution-Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
