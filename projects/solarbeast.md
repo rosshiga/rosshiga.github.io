@@ -35,7 +35,7 @@ In this project, I was a lead programmer who was responsible for programming the
 
 I also made contributions to logic chip selection and was the main designer and integrator of the lead acid battery charging logic which used the TI TPS5420 and TI UC3906N. I implemented the resistor feedback network, from the datasheets, needed to accommodate our charge rates.  
 
-We suffered many set backs, mostly with the physical aspect of the project. Most notable is that we broke our solar panel mounting base while transporting it to the final showcase. All of us learned valuable lessons in ball bearings, epoxy, part selection, ordering, and of course failure. We did not size the solar panel correctly the first go an ended up with a beast, a 50W polycrystalline 2 foot square, which we then had to use and kicked off several redesigns. For someone more adept at the keyboard, I thank my fellow partners for the sleepless nights wondering how we can rotate and push a 4 pound beast with a tiny Arduino.
+We suffered many set backs, mostly with the physical aspect of the project. Most notable is that we broke our solar panel mounting base while transporting it to the final showcase. All of us learned valuable lessons in ball bearings, epoxy, part selection, ordering, and of course failure. We did not size the solar panel correctly the first go an ended up with a beast, a 50W polycrystalline 2 foot square panel, which we then had to use and kicked off several redesigns. For someone more adept at the keyboard, I thank my fellow partners for the sleepless nights wondering how we can rotate and push a 4 pound beast with a tiny Arduino.
 
 #### Further Reading:
 
