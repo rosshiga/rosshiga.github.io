@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Can Computer Predict My Future?
+title: Can Computers Predict My Future?
 # All dates must be YYYY-MM-DD format!
 date: 2018-08-23
 labels:
