@@ -150,6 +150,17 @@
   ],
   "work": [
     {
+      "company": "University of Hawaii",
+      "position": "Mixed/Virtual Reality Research Assistant",
+      "website": "",
+      "startDate": "2018-09-10",
+      "endDate": "Present",
+      "summary": "Manoa, HI - Research support for VR and ambient/context aware devices",
+      "highlights": [
+        "Provide system and developer support under the direction of Dr. Darren Carlson"
+      ]
+    },
+    {
       "company": "RH Digital LLC",
       "position": "Owner",
       "website": "",
