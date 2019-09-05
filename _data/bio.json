@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ross Higa",
-    "label": "Student and Technology Consultant",
+    "label": "Student",
     "picture": "https://rosshiga.com/images/ross.jpg",
     "email": "ross@rosshiga.com",
     "phone": "808-258-8604",
     "website": "https://rosshiga.com",
-    "summary": "I am a B.S. Computer Engineering candidate and research assistant in Mānoa at the University of Hawaii. I run RH Digital, an IT services and retail analytics firm for local businesses. When not working find me outside shooting landscapes with a Canon.",
+    "summary": "I am a B.S. Computer Engineering candidate and research assistant in Mānoa at the University of Hawaii. When not working find me outside shooting landscapes with a Canon with ham radio in hand",
     "location": {
       "address": "PO Box 971171",
       "postalCode": "96797",
@@ -29,11 +29,11 @@
   },
   "interests": [
     {
-      "name": "multi-platform apps",
+      "name": "IoT",
       "keywords": [
-        "Node.js",
-        "Cordova/Phonegap",
-        "Electron"
+        "Atmel",
+        "ESP8266",
+        "Raspberry Pi"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "name": "cyber security",
       "keywords": [
         "802.11 security",
-        "Operational hygiene",
+        "UAV spoofing",
         "Availability threats"
       ]
     }
@@ -217,6 +217,8 @@
       ]
     }
   ],
+  
+  
   "references": [
     {
       "name": "Available upon request",
