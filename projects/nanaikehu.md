@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/solarbeast.png
 title: Nānā Ikehu
-permalink: projects/solarbeast
+permalink: projects/nanaikehu
 date: 2018-11-01
 labels:
   - node.js
