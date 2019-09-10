@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Is JavaScript the Language, or just the Words?
-date: 2018-08-31
+date: 2019-08-31
 labels:
   - Javascript
   - Node.js
