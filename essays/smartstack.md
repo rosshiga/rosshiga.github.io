@@ -30,15 +30,15 @@ I know with Apache as my web server, I can do
 >a2enmod php5.6 #to enable php5
 >a2enmod php7.1 #to enable php7
 >```
-
+<blockquote>
 When I disable php7.1 in Apache modules and enable php 5.6, Apache recognizes the change and uses php 5.6 interpreter as expected.
 
 But when I run internal php web server from the commandline:
-
-```
-php -S localhost:8888
-```
-
+</blockquote>
+>```
+>php -S localhost:8888
+>```
+<blockquote>
 php handles requests using php 7, how do I switch between php 6.6 and php 7.1 in the commandline ?
 </blockquote>
 
