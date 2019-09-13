@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: You're Smart, What About Your Writing?
+title: You're Smart, What About Your Questions?
 # All dates must be YYYY-MM-DD format!
-date: 2018-09-06
+date: 2019-09-12
 labels:
   - S.M.A.R.T.
   - StackExchange
@@ -18,31 +18,36 @@ The reason I ask is because while I have no doubt you are smart, your goals may 
 
 Specific issue questions with specific information about your environment are much more likely to get a response on public forums or mailing list. Asking questions that are targeted to a particular outcome will help you achieve that outcome. Broad questions and providing personal interjection for context information can leave readers either puzzled to the real issue or lead them down the wrong path due to bad information.
 
-For example let’s deconstruct [this Stack Overflow question](https://stackoverflow.com/questions/3602450/where-are-my-postgres-conf-files) about postgresql, a database software. 
+For example let’s deconstruct [this Stack Overflow question](hhttps://stackoverflow.com/questions/42619312/switch-php-versions-on-commandline-ubuntu-16-04) about php version copied below. 
 
-Kopezaur writes:
+salimsaid writes in Switch php versions on commandline ubuntu 16.04:
 <blockquote>
-I have recently reinstalled postgresql 8.3 on my Ubuntu 8.04 after update. Used EnterpriseDB package. I can connect to the database locally, I see system DB postgres but I can't configure it because I can't find config files. Searched through entire hard drive and found only samples like pg_hba.conf.sample
-<br/>Where are the postgres *.conf files?
+I have installed php 5.6 and and php 7.1 on my Ubuntu 16.04
+
+I know with Apache as my web server, I can do
+```
+a2enmod php5.6 #to enable php5
+a2enmod php7.1 #to enable php7
+```
+When I disable php7.1 in Apache modules and enable php 5.6, Apache recognizes the change and uses php 5.6 interpreter as expected.
+
+But when I run internal php web server from the commandline:
+```
+php -S localhost:8888
+```
+php handles requests using php 7, how do I switch between php 6.6 and php 7.1 in the commandline ?
 </blockquote>
 
-You might not even have heard of postgresql before but you can quickly grasp what this question is asking for. Kopezaur is looking for the config files on Ubuntu 8.04. The context information here is great, he provides a chronologically ordered timeline of the events that lead to the posting. They also mention all the version numbers of software and what is and isn’t working along with what has been tried.
+You might not even have heard of PHP but that doesn't mean the post is unclear. The title is a great question that states the version number of his OS, Ubuntu 16.04. salimsaid then mentions that they have found information or know how to execute the outcome on their web server Apache, but are looking to do the same for their shell. 
 
-Now all of the answer are structured differently or provide different methods to access the files, but because the question is clearly written all of the responses answer the original question “Where are the postgres *.conf files?”. The most popular suggestion is to ask postgresql with a “SHOW config_file;” command because its is running. Steven Schlansker provides a different way that only works for Debian/Ubuntu, but he could answer because Kopezaur mentioned he is using Ubuntu.
+Now all of the answer are targeted for Ubuntu. Using "update-alternatives --config php" will change the configuration on Ubuntu. If salimsaid never mentioned the version or type of his operating system it would be very hard to give the correct instructions. For example on CentOS, the procedure is to use the [alternatives](https://linux.die.net/man/8/alternatives) command.
 
-Let’s be realistic here and understand that nobody is going to teach you programming without you putting in some work. Pandering to people by being self-demeaning can steer help in the other direction.  [This post](https://stackoverflow.com/questions/26291215/duplicate-error-noob-programmer) from Tiny shows that calling yourself new and inexperienced does not garner much help.
-
-Tiny in part wrote:
+Let’s be realistic here and understand that nobody is going to read your mind. Let's take a look at this post that Phuc LK wrote that could learn from salimsaid.
+Phuc LK [posted](https://stackoverflow.com/questions/57919699/how-to-update-my-web-application-into-sever-and-test-the-first-demo):
 <blockquote>
-Here's my code, I have no idea what is wrong with it I am completely new at this and I would appreciate it a lot if I can receive some feedback thanks:)When I try to launch my app in the emulator it tells me I can't because of theses errors:
-<br/>
-
-Error:Error: Duplicate resources: C:\Users\Kam\AndroidStudioProjects\SchoolAid5\app\src\main\res\layout-ldltr-v14\activity_my.xml:layout-ldltr-v17/activity_my, C:\Users\Kam\AndroidStudioProjects\SchoolAid5\app\src\main\res\layout-ldltr\activity_my.xml:layout-ldltr-v17/activity_my
+i'm try update my web application to server and it not work. My web start with a file java servlet...
 </blockquote>
 
-First Tiny has no idea what is wrong with the program, making it sound like they haven’t done any research into the issue at all. Second, without a Git or more in-depth code samples it is near impossible to find where a duplicate resource for Android layouts might be.
-
-This post got one response by Cory Roy that reads in part, “Looks like you may have duplicate activity_my.xml files”. Cory read the error message and basically read it back out to Tiny. The question sets the tone for the type of answers you will get.
-
+This post got a negative score and it's very clear why. The asker hasn't asked the question in a smart way. The reader would have no idea of web application server type, commands to start the applet, or even which version of Java and OS this person has. There needs to be major clarification and restating of the question. 
 
 Further reading: [How to Ask Question the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
