@@ -48,6 +48,6 @@ Phuc LK [posted](https://stackoverflow.com/questions/57919699/how-to-update-my-w
 i'm try update my web application to server and it not work. My web start with a file java servlet...
 </blockquote>
 
-This post got a negative score and it's very clear why. The asker hasn't asked the question in a smart way. The reader would have no idea of web application server type, commands to start the applet, or even which version of Java and OS this person has. There needs to be major clarification and restating of the question. 
+This post got a negative score and it's very clear why. The asker hasn't asked the question in a smart way. The reader would have no idea of web application server type, commands to start the applet, or even which version of Java and OS this person has. There needs to be major clarification and restating of the question to be more specific before it's realistic someone will answer. 
 
 Further reading: [How to Ask Question the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
