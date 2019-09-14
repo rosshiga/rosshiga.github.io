@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/solarbeast.png
+image: images/landing.png
 title: Nānā Ikehu
 permalink: projects/nanaikehu
 projecturl: github.com/nanaikehu/Nana-Ikehu
