@@ -4,7 +4,6 @@ type: project
 image: images/landing.png
 title: Nānā Ikehu
 permalink: projects/nanaikehu
-projecturl: github.com/nanaikehu/Nana-Ikehu
 date: 2018-11-01
 labels:
   - node.js
