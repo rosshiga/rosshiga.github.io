@@ -4,6 +4,7 @@ type: project
 image: images/solarbeast.png
 title: Nānā Ikehu
 permalink: projects/nanaikehu
+projecturl: github.com/nanaikehu/Nana-Ikehu
 date: 2018-11-01
 labels:
   - node.js
@@ -24,9 +25,7 @@ summary: Power use visualization tool, Hawaii Annual Code Challange 2018 Finalis
   * [How we built it](#how-we-built-it)
   * [Challenges we ran into](#challenges)
   * [What we learned](#what-we-learned)
-  * [Accomplishments that we're proud of and todo](#accomplishments)
-  * [Mahalo](#mahalo)
-    * [HAAC Sponsors](#sponsors)
+
     
 
 # About Nana Ikehu 
@@ -140,48 +139,8 @@ This Hackathon demanded of us (in a good way) to build a project portfolio and m
 ## Accomplishments that we're proud of and todo
 As a team, we are proud of the fact that our application works the way we want to. We see value in providing tighter integration with other data sources and plan to add REST APIs. These APIs will allow other teams to get data from our application transparently as well as allow users to import data in real time using HTTP. We also would like to develop more historical tracking and metrics to further insights.
 
-## Mahalo 
-Special thanks to: 
-
-Miles Topping, Director of Energy Management at University of Hawaii for providing us gigabytes of data and resources for this challenge
-
-[Dr.-Ing. Darren Carlson](http://ee.hawaii.edu/faculty/detail.php?usr=87), Professor of Computer Engineering for providing beefy computer and space resources 
-
-[UH Manoa ICS Department](http://ics-software-engineering.github.io/meteor-application-template-react/)  for supplying the inital template for Meteor and React
-
-[Formidable Labs](https://formidable.com/open-source/) for supplying the Victory graphing engine
-
-[Papa Parse](https://www.papaparse.com/) for the powerful, in-browser CSV parser for big data
-
-### HAAC Sponsors: 
-[Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)
-
-[Hawaii Department of Agriculture](http://hdoa.hawaii.gov/)
-
-[Kaiser Permanente](https://thrive.kaiserpermanente.org/)
-
-[Transform Hawaii Government](http://transformhawaiigov.org/)
-
-[DataHouse](http://www.datahouse.com/)
-
-[Pacxa](http://www.pacxa.com/)
-
-[Salesforce](https://www.salesforce.com/)
-
-[Unisys](https://www.unisys.com/)
-
-
 
 ### Role:
 
-In this project, I was a lead programmer who was responsible for programming the PhoneGap app using angular.js and Ionic to create a iOS and Android app using a single code base. JavaScript and HTML are combined in Ionic along with the INA219 High Side DC Current Sensor Breakout on our Arduino. I was able to gather current and voltage output rates on a Arduino and feed the power data using an ethernet shield into a simple PHP script which ingested the data to a MySQL table I setup. MySQL processed and averaged charging rates to display to the end user on their smartphone.
+In this project, I was a lead SQL person. I developed the MS SQL drivers we needed to import data on into our Meteor instance. I also handled the PapaParse data imports and assisted in getting the Victory graphs working
 
-I also made contributions to logic chip selection and was the main designer and integrator of the lead acid battery charging logic which used the TI TPS5420 and TI UC3906N. I implemented the resistor feedback network, from the datasheets, needed to accommodate our charge rates.  
-
-We suffered many set backs, mostly with the physical aspect of the project. Most notable is that we broke our solar panel mounting base while transporting it to the final showcase. All of us learned valuable lessons in ball bearings, epoxy, part selection, ordering, and of course failure. We did not size the solar panel correctly the first go an ended up with a beast, a 50W polycrystalline 2 foot square panel, which we then had to use and kicked off several redesigns. For someone more adept at the keyboard, I thank my fellow partners for the sleepless nights wondering how we can rotate and push a 4 pound beast with a tiny Arduino.
-
-#### Further Reading:
-
-You can learn more at the [UH EE Department](http://ee.hawaii.edu)
-   
-Forked with permission of [team member](https://github.com/icarus0/unjammy.github.io/blob/master/projects/solarbeast.md)
