@@ -117,10 +117,21 @@
     }
   ],
   "education": [
+        {
+      "institution": "Western Governors University",
+      "area": "Cyber-security",
+      "studyType": "B.S. / M.S.",
+      "startDate": "2020-06-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Engineering",
-      "studyType": "B.S.",
+      "studyType": "Studied",
       "startDate": "2016-01-01",
       "endDate": "Present",
       "gpa": "",
@@ -155,7 +166,7 @@
       "website": "",
       "startDate": "2019-12-26",
       "endDate": "Present",
-      "summary": "Oahu, HI - I am the lead technology decision maker, point of sale technician, help desk staff, webmaster, social media manager, and business analyst for Waianae Store, Nanakuli Super, and Friendly's Market.",
+      "summary": "Oahu, HI - I am the lead technology decision maker, point of sale technician, help desk staff, webmaster, social media manager, and business analyst for Waianae Store, Nanakuli Super, and Friendly Market Center.",
     },
     {
       "company": "University of Hawaii",
