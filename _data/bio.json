@@ -168,6 +168,20 @@
       "endDate": "Present",
       "summary": "Oahu, HI - I am the lead technology decision maker, point of sale technician, help desk staff, webmaster, social media manager, and business analyst for Waianae Store, Nanakuli Super, and Friendly Market Center.",
     },
+        {
+      "company": "PC Plug Hawaii",
+      "position": "Systems Engineer",
+      "website": "https://pcplughi.com/",
+      "startDate": "2021-11-01",
+      "endDate": "Present",
+      "summary": "Honolulu, HI - We provide expert computer and electronics repair services, custom PC building, password resets, training, consultation, upgrades.",
+      "highlights": [
+        "Provide startup and business mentorship to grow company through COVID",
+        "Built, repaired, and upgraded personal electronics by following detailed and specific build plans",
+        "Set up home office networks or business services including DNS, email, and server hosting",
+        "Devlop managed services and turn key solutions foor internet, VOIP, cyber security, and disaster recovery" 
+      ]
+    },
     {
       "company": "University of Hawaii",
       "position": "Mixed/Virtual Reality Research Assistant",
@@ -184,8 +198,8 @@
       "position": "Owner",
       "website": "",
       "startDate": "2013-06-01",
-      "endDate": "Present",
-      "summary": "Oahu, HI - RH Digital is proud to empower local business with technology and data driven strategies.",
+      "endDate": "2019-12-26",
+      "summary": "Oahu, HI - RH Digital was my proud to empower local business with technology and data driven strategies.",
       "highlights": [
         "Provided clear direction, leadership, and communication necessary to achieve business, financial and operating goals",
         "Built, repaired, and upgraded personal computers by following detailed and specific build plans",
